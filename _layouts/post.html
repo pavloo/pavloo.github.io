@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+<!-- begin post -->
+<div class="container">
+  <article class="post animate">
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    {% include share.html %}
+
+    {% include post-navigation.html %}
+
+    {% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
+
+  </article>
+</div>
+<!-- end post -->

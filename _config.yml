@@ -1,0 +1,118 @@
+#-------------------------------
+# General Site Settings
+title: Pavlo Osadchyi
+logo: # You can add own logo. For example '/images/logo.png'.
+description:  Pavlo Osadchyi's personal website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://pavloosadchyi.com" # the base hostname & protocol for your site, e.g. http://example.com
+blog-theme: light # By default, Atega theme uses a 'light' color scheme, to change the color scheme to dark use 'dark' value (_includes/color-scheme)
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Pavlo Osadchyi
+  image: '/images/01.jpg'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hi, I'm <span class="hero__name">Pavlo Osadchyi</span>.
+  hero__job: Software engineer
+  hero__description: Creative and pragmatic problem solver, husband and father.
+  hero__button__text: Read about me
+  hero__button__link: '/about'
+  hero__image: '/images/front.jpeg'
+
+
+#-------------------------------
+# Newsletter (_includes/footer-widgets/widget-subscribe.html)
+# mailchimp__title: Subscribe to new posts # Add your Title
+# mailchimp__text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
+# mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+# mailchimp__button__text: Subscribe # Add your button text
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: me@pavloosadchyi.com # Add your email for contant form
+  description: If you are interested to talk, just shoot me a message
+
+# NOTE
+# Atega comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Social Links (Footer)
+# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com"}
+- {icon: "ion-logo-github", link: "https://github.com"}
+- {icon: "ion-logo-youtube", link: "https://youtube.com"}
+- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+- {icon: "ion-logo-codepen", link: "https://codepen.io"}
+- {icon: "ion-logo-vimeo", link: "https://vimeo.com/"}
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: posadchyi # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  title: Gallery
+  images:
+    - alt: 'Minimalism'
+      url: '/images/06.jpg'
+    - alt: 'Minimalism'
+      url: '/images/05.jpg'
+    - alt: 'Minimalism'
+      url: '/images/08.jpg'
+    - alt: 'Minimalism'
+      url: '/images/03.jpg'
+    - alt: 'Minimalism'
+      url: '/images/09.jpg'
+    - alt: 'Minimalism'
+      url: '/images/04.jpg'
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  /:title
+
+sass:
+  sass_dir: _sass
+  style: compressed
