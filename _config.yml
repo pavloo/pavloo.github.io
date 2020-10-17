@@ -68,17 +68,17 @@ gallery:
   title: Gallery
   images:
     - alt: 'Minimalism'
-      url: '/images/06.jpg'
+      url: '/images/landscape1.jpg'
     - alt: 'Minimalism'
-      url: '/images/05.jpg'
+      url: '/images/sasha1.jpeg'
     - alt: 'Minimalism'
-      url: '/images/08.jpg'
+      url: '/images/castle1.jpg'
     - alt: 'Minimalism'
-      url: '/images/03.jpg'
+      url: '/images/scotland1.jpg'
     - alt: 'Minimalism'
-      url: '/images/09.jpg'
+      url: '/images/sanfran1.jpg'
     - alt: 'Minimalism'
-      url: '/images/04.jpg'
+      url: '/images/newyork1.jpg'
 
 
 #-------------------------------
