@@ -10,7 +10,5 @@ Hi, my name is Pavlo Osadchyi. I'm a Software Engineer with 8 years of experienc
 I had a chance to work on many projects in teams of different sizes. I've got a solid grasp of such things like testing, debugging, how to write correct and maintainable code. I'm extremely product-driven.
 I always try to pick the best tool for the job, therefore I was able to work with numerous front-end and back-end web technologies such as: React, Ember.js, Ruby On Rails, Java Spring MVC, Elixir, Python Flask, Terraform, Kubernetes.
 
-I'm a *generalist*, so it doesn't really matter whether whatever I'm working on is front-end, back-end, or maybe embedded programming - all I care about is *the end result*. If my task requires changes in CSS code today, and updates in Kubernetes deployment tomorrow - *perfect* (still think that CSS and YAML are not true programming languages? haha).
-
 ![Garden]({{site.baseurl}}/images/garden_tools.jpg?style=centerme)
 *Photo from escalontimes.com*
