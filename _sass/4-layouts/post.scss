@@ -4,6 +4,11 @@
   max-width: 850px;
   margin: 0 auto;
   color: $heading-font-color;
+  &__content {
+    a {
+      text-decoration: underline;
+    }
+  }
 }
 
 .image-box {
